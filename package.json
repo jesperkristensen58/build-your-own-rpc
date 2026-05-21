@@ -1,0 +1,33 @@
+{
+  "name": "build-your-own-rpc",
+  "version": "1.0.0",
+  "description": "Build a JSON-RPC 2.0 server from scratch in ~100 lines — companion code for Episode 2 of the Understanding RPC series.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "v1:server": "node v1-http-echo/server.js",
+    "v1:client": "node v1-http-echo/client.js",
+    "v2:server": "node v2-json-body/server.js",
+    "v2:client": "node v2-json-body/client.js",
+    "v3:server": "node v3-jsonrpc/server.js",
+    "v3:client": "node v3-jsonrpc/client.js",
+    "v4:server": "node v4-errors/server.js",
+    "v4:client": "node v4-errors/client.js",
+    "v5:server": "node v5-timeouts/server.js",
+    "v5:client": "node v5-timeouts/client.js"
+  },
+  "keywords": [
+    "json-rpc",
+    "jsonrpc",
+    "rpc",
+    "ethereum",
+    "web3",
+    "tutorial",
+    "educational",
+    "from-scratch"
+  ],
+  "author": "Jesper Kristensen (https://www.youtube.com/@cryptojesperk)",
+  "license": "MIT"
+}
