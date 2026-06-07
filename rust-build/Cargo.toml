@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "v1-http-echo",
+    "v2-json-body",
+    "v3-jsonrpc",
+    "v4-errors",
+    "v5-timeouts",
+]
+
+[workspace.dependencies]
+axum = "0.8"
+tokio = { version = "1", features = ["full"]}
+reqwest = "0.12"
+futures-util = "=0.3.31"

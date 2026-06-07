@@ -1,0 +1,10 @@
+[package]
+name = "v1-http-echo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum.workspace = true
+tokio.workspace = true
+reqwest.workspace = true
+futures-util.workspace = true
