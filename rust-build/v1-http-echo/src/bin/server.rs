@@ -12,7 +12,7 @@ async fn main() {
 
 
 async fn echo(req: Request) -> String {
-    let mut body = String::new(); // this should add latency, i think.
+    let mut body = String::new(); 
     let mut stream = req.into_body().into_data_stream();
 
     while let Some(chunk) = stream.next().await {

@@ -1,0 +1,12 @@
+[package]
+name = "v2-json-body"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum.workspace = true
+tokio.workspace = true
+reqwest.workspace = true
+futures-util.workspace = true
+serde.workspace = true
+serde_json.workspace = true
