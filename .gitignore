@@ -26,3 +26,6 @@ Thumbs.db
 dist/
 build/
 coverage/
+
+# Rust
+rust-build/target/
