@@ -2,9 +2,18 @@
 name = "v1-http-echo"
 version = "0.1.0"
 edition = "2024"
+autobins = false
 
 [dependencies]
 axum.workspace = true
 tokio.workspace = true
 reqwest.workspace = true
 futures-util.workspace = true
+
+[[bin]]
+name = "v1-server"
+path = "src/bin/server.rs"
+
+[[bin]]
+name = "v1-client"
+path = "src/bin/client.rs"

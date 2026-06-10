@@ -1385,6 +1385,13 @@ dependencies = [
 [[package]]
 name = "v4-errors"
 version = "0.1.0"
+dependencies = [
+ "axum",
+ "futures-util",
+ "reqwest",
+ "serde_json",
+ "tokio",
+]
 
 [[package]]
 name = "v5-timeouts"
